@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Davesh Prabu - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #0073e6;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            animation: fadeIn 1.5s ease-in-out;
+            position: relative;
+        }
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 3px solid white;
+            display: block;
+            margin: 10px auto;
+        }
+        section {
+            width: 80%;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+            animation: slideUp 1s ease-in-out;
+        }
+        section:hover {
+            transform: scale(1.02);
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+        }
+        h2 {
+            color: #0073e6;
+            border-bottom: 2px solid #0073e6;
+            padding-bottom: 5px;
+        }
+        ul {
+            list-style-type: square;
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #0073e6;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        a {
+            color: #0073e6;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #005bb5;
+        }
+        button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        button:hover {
+            background-color: #005bb5;
+            transform: scale(1.05);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @keyframes slideUp {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="20250223_094448 (1).jpg" alt="Davesh Prabu" class="profile-img">
+        <h1>Davesh Prabu</h1>
+        <p>BE - Electronics and Instrumentation</p>
+        <p>Contact: <a href="mailto:daveshprabu@gmail.com">daveshprabu@gmail.com</a> | +91 8056187041</p>
+        <p>Location: 28/2, Shanthi Nagar West, 4th Cross, Hosur - 635109</p>
+    </header>
+    
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Kongu Engineering College</strong> - CGPA: 7.44</p>
+        <p><strong>Shemford Hr. Sec School (CBSE)</strong> - Percentage: 74.4</p>
+        <p><strong>Sri Gurukulam Hr. Sec School</strong> - Percentage: 68.8</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Airborne Particles Filtering System Using IoT</li>
+            <li>Design and Development of Wearable Devices for Patients with Multiple Sclerosis using Soft Robotics (Won 3rd Prize at BIONOHACK-2023)</li>
+            <li>IoT Assisted Knee Kinematics Control for Supervised Rehabilitation of Paralyzed Patients</li>
+        </ul>
+    </section>
+    
+    <section id="training">
+        <h2>In-Plant Training</h2>
+        <ul>
+            <li>Titan Engineering and Automation Limited, Hosur</li>
+            <li>Universal Auto Precision Products, Hosur</li>
+        </ul>
+    </section>
+    
+    <section id="skills">
+        <h2>Skills</h2>
+        <p><strong>Technical Skills:</strong> Python, JavaScript, React.JS, HTML & CSS, C & Java, MySQL</p>
+        <p><strong>Tools:</strong> Adobe XD, Figma</p>
+        <p><strong>Languages:</strong> English, Tamil</p>
+    </section>
+    
+    <section id="affiliations">
+        <h2>Professional Affiliations</h2>
+        <ul>
+            <li>Executive Member in ISTE (Indian Society for Technical Education)</li>
+            <li>Executive Member in English Proficiency and Readers Club</li>
+            <li>Worked as Media Head in NSS</li>
+        </ul>
+    </section>
+    
+    <section id="soft-skills">
+        <h2>Soft Skills</h2>
+        <ul>
+            <li>Leadership</li>
+            <li>Adaptability</li>
+            <li>Communication</li>
+        </ul>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Davesh Prabu. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
